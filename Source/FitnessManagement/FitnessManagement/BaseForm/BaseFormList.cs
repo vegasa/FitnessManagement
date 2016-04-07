@@ -7,20 +7,15 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using DevExpress.XtraBars;
+using DevExpress.XtraEditors;
 
-namespace FitnessManagement
+namespace FitnessManagement.BaseForm
 {
-    public partial class Master : DevExpress.XtraBars.Ribbon.RibbonForm
+    public partial class BaseFormList : DevExpress.XtraEditors.XtraForm
     {
-        public Master()
+        public BaseFormList()
         {
             InitializeComponent();
-        }
-
-        private void btnListCustomer_ItemClick(object sender, ItemClickEventArgs e)
-        {
-            
         }
     }
 }
