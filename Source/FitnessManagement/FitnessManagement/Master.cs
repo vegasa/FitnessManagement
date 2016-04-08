@@ -8,6 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraBars;
+using FitnessManagement.form;
 
 namespace FitnessManagement
 {
@@ -20,7 +21,14 @@ namespace FitnessManagement
 
         private void btnListCustomer_ItemClick(object sender, ItemClickEventArgs e)
         {
-            
+
+        }
+
+        private void btnAddCustomer_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            AddCustomer cus = new AddCustomer();
+            cus.StartPosition = FormStartPosition.CenterParent;
+            cus.ShowDialog();
         }
     }
 }

@@ -11,11 +11,16 @@ using DevExpress.XtraEditors;
 
 namespace FitnessManagement.form
 {
-    public partial class Customer : DevExpress.XtraEditors.XtraForm
+    public partial class AddCustomer : DevExpress.XtraEditors.XtraForm
     {
-        public Customer()
+        public AddCustomer()
         {
             InitializeComponent();
+        }
+
+        private void AddCustomer_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

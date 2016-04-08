@@ -59,11 +59,11 @@
     <Compile Include="BaseForm\BaseFormList.Designer.cs">
       <DependentUpon>BaseFormList.cs</DependentUpon>
     </Compile>
-    <Compile Include="form\Customer.cs">
+    <Compile Include="form\AddCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form\Customer.Designer.cs">
-      <DependentUpon>Customer.cs</DependentUpon>
+    <Compile Include="form\AddCustomer.Designer.cs">
+      <DependentUpon>AddCustomer.cs</DependentUpon>
     </Compile>
     <Compile Include="Master.cs">
       <SubType>Form</SubType>
@@ -75,6 +75,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BaseForm\BaseFormList.resx">
       <DependentUpon>BaseFormList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\AddCustomer.resx">
+      <DependentUpon>AddCustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Master.resx">
       <DependentUpon>Master.cs</DependentUpon>
