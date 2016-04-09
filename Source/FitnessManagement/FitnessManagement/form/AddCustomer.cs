@@ -8,6 +8,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
+using DevExpress.XtraEditors.Camera;
+using System.IO;
 
 namespace FitnessManagement.form
 {
@@ -22,5 +24,30 @@ namespace FitnessManagement.form
         {
 
         }
+
+        private void pictureImage_EditValueChanged(object sender, EventArgs e)
+        {
+            Image i = pictureImage.Image;
+            pictureImage.Image = i;
+            i.Save(Application.StartupPath + "hinhanh.png");
+        }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            if (rbtNu.Checked)
+            {
+                MessageBox.Show("Bạn chọn nữ");
+            }
+            if (rbtNam.Checked)
+            {
+                MessageBox.Show("Bạn chọn nam");
+            }
+        }
+
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+        
     }
 }
