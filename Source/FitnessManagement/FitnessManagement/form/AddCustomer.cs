@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using DevExpress.XtraEditors.Camera;
 using System.IO;
+using System.Drawing.Imaging;
 
 namespace FitnessManagement.form
 {
@@ -19,35 +20,16 @@ namespace FitnessManagement.form
         {
             InitializeComponent();
         }
+        private Control uiControl;
 
+        public Control UIControl
+        {
+            get { return uiControl; }
+            set { uiControl = value; }
+        }
         private void AddCustomer_Load(object sender, EventArgs e)
         {
-
+            this.Controls.Add(uiControl);
         }
-
-        private void pictureImage_EditValueChanged(object sender, EventArgs e)
-        {
-            Image i = pictureImage.Image;
-            pictureImage.Image = i;
-            i.Save(Application.StartupPath + "hinhanh.png");
-        }
-
-        private void btnSubmit_Click(object sender, EventArgs e)
-        {
-            if (rbtNu.Checked)
-            {
-                MessageBox.Show("Bạn chọn nữ");
-            }
-            if (rbtNam.Checked)
-            {
-                MessageBox.Show("Bạn chọn nam");
-            }
-        }
-
-        private void btnHuy_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-        
     }
 }

@@ -28,6 +28,7 @@ namespace FitnessManagement
         {
             AddCustomer cus = new AddCustomer();
             cus.StartPosition = FormStartPosition.CenterParent;
+            cus.UIControl = new UI_StudentofClass();
             cus.ShowDialog();
         }
     }

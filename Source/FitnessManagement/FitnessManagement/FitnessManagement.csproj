@@ -65,6 +65,12 @@
     <Compile Include="form\AddCustomer.Designer.cs">
       <DependentUpon>AddCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="form\UI_StudentofClass.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="form\UI_StudentofClass.Designer.cs">
+      <DependentUpon>UI_StudentofClass.cs</DependentUpon>
+    </Compile>
     <Compile Include="Master.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="form\AddCustomer.resx">
       <DependentUpon>AddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\UI_StudentofClass.resx">
+      <DependentUpon>UI_StudentofClass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Master.resx">
       <DependentUpon>Master.cs</DependentUpon>

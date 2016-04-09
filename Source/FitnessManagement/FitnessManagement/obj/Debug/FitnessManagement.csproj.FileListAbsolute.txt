@@ -19,3 +19,4 @@ E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\
 E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.pdb
 E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.BaseForm.BaseFormList.resources
 E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.form.AddCustomer.resources
+E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.form.UI_StudentofClass.resources
