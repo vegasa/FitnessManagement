@@ -1,6 +1,6 @@
-﻿namespace FitnessManagement.form
+﻿namespace FitnessManagement.UIs
 {
-    partial class UI_StudentofClass
+    partial class UI_AddCustomer
     {
         /// <summary> 
         /// Required designer variable.
@@ -59,49 +59,49 @@
             // 
             // btnHuy
             // 
-            this.btnHuy.Location = new System.Drawing.Point(636, 303);
+            this.btnHuy.Location = new System.Drawing.Point(637, 300);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(75, 35);
-            this.btnHuy.TabIndex = 33;
+            this.btnHuy.TabIndex = 52;
             this.btnHuy.Text = "Hủy";
             this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(536, 303);
+            this.btnSubmit.Location = new System.Drawing.Point(537, 300);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(75, 35);
-            this.btnSubmit.TabIndex = 32;
+            this.btnSubmit.TabIndex = 51;
             this.btnSubmit.Text = "Lưu ";
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // pictureImage
             // 
-            this.pictureImage.Location = new System.Drawing.Point(413, 65);
+            this.pictureImage.Location = new System.Drawing.Point(414, 62);
             this.pictureImage.Name = "pictureImage";
             this.pictureImage.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
             this.pictureImage.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom;
             this.pictureImage.Size = new System.Drawing.Size(317, 215);
-            this.pictureImage.TabIndex = 31;
+            this.pictureImage.TabIndex = 50;
             this.pictureImage.EditValueChanged += new System.EventHandler(this.pictureImage_EditValueChanged);
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(112, 254);
+            this.txtEmail.Location = new System.Drawing.Point(113, 251);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.txtEmail.Properties.Appearance.Options.UseFont = true;
             this.txtEmail.Size = new System.Drawing.Size(232, 26);
-            this.txtEmail.TabIndex = 28;
+            this.txtEmail.TabIndex = 47;
             // 
             // rbtNam
             // 
             this.rbtNam.AutoSize = true;
             this.rbtNam.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.rbtNam.Location = new System.Drawing.Point(166, 129);
+            this.rbtNam.Location = new System.Drawing.Point(167, 126);
             this.rbtNam.Name = "rbtNam";
             this.rbtNam.Size = new System.Drawing.Size(60, 23);
-            this.rbtNam.TabIndex = 21;
+            this.rbtNam.TabIndex = 40;
             this.rbtNam.Text = "Nam";
             this.rbtNam.UseVisualStyleBackColor = true;
             // 
@@ -110,38 +110,38 @@
             this.rbtNu.AutoSize = true;
             this.rbtNu.Checked = true;
             this.rbtNu.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.rbtNu.Location = new System.Drawing.Point(112, 129);
+            this.rbtNu.Location = new System.Drawing.Point(113, 126);
             this.rbtNu.Name = "rbtNu";
             this.rbtNu.Size = new System.Drawing.Size(48, 23);
-            this.rbtNu.TabIndex = 20;
+            this.rbtNu.TabIndex = 39;
             this.rbtNu.TabStop = true;
             this.rbtNu.Text = "Nữ";
             this.rbtNu.UseVisualStyleBackColor = true;
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(112, 222);
+            this.txtPhone.Location = new System.Drawing.Point(113, 219);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.txtPhone.Properties.Appearance.Options.UseFont = true;
             this.txtPhone.Properties.Mask.EditMask = "(\\d?\\d?\\d?) \\d\\d\\d-\\d\\d\\d\\d\\d?";
             this.txtPhone.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Regular;
             this.txtPhone.Size = new System.Drawing.Size(232, 26);
-            this.txtPhone.TabIndex = 26;
+            this.txtPhone.TabIndex = 45;
             // 
             // txtAddress
             // 
-            this.txtAddress.Location = new System.Drawing.Point(112, 190);
+            this.txtAddress.Location = new System.Drawing.Point(113, 187);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.txtAddress.Properties.Appearance.Options.UseFont = true;
             this.txtAddress.Size = new System.Drawing.Size(232, 26);
-            this.txtAddress.TabIndex = 24;
+            this.txtAddress.TabIndex = 43;
             // 
             // txrDOB
             // 
             this.txrDOB.EditValue = new System.DateTime(2016, 4, 8, 21, 57, 35, 0);
-            this.txrDOB.Location = new System.Drawing.Point(112, 158);
+            this.txrDOB.Location = new System.Drawing.Point(113, 155);
             this.txrDOB.Name = "txrDOB";
             this.txrDOB.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.txrDOB.Properties.Appearance.Options.UseFont = true;
@@ -154,87 +154,87 @@
             this.txrDOB.Properties.Mask.UseMaskAsDisplayFormat = true;
             this.txrDOB.Properties.VistaDisplayMode = DevExpress.Utils.DefaultBoolean.False;
             this.txrDOB.Size = new System.Drawing.Size(232, 26);
-            this.txrDOB.TabIndex = 23;
+            this.txrDOB.TabIndex = 42;
             // 
             // labelControl7
             // 
             this.labelControl7.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.labelControl7.Location = new System.Drawing.Point(17, 257);
+            this.labelControl7.Location = new System.Drawing.Point(18, 254);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(45, 19);
-            this.labelControl7.TabIndex = 30;
+            this.labelControl7.TabIndex = 49;
             this.labelControl7.Text = "Email:";
             // 
             // labelControl6
             // 
             this.labelControl6.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.labelControl6.Location = new System.Drawing.Point(17, 225);
+            this.labelControl6.Location = new System.Drawing.Point(18, 222);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(78, 19);
-            this.labelControl6.TabIndex = 29;
+            this.labelControl6.TabIndex = 48;
             this.labelControl6.Text = "Điện thoại:";
             // 
             // labelControl5
             // 
             this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.labelControl5.Location = new System.Drawing.Point(17, 193);
+            this.labelControl5.Location = new System.Drawing.Point(18, 190);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(54, 19);
-            this.labelControl5.TabIndex = 27;
+            this.labelControl5.TabIndex = 46;
             this.labelControl5.Text = "Địa chỉ:";
             // 
             // labelControl4
             // 
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.labelControl4.Location = new System.Drawing.Point(17, 161);
+            this.labelControl4.Location = new System.Drawing.Point(18, 158);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(76, 19);
-            this.labelControl4.TabIndex = 25;
+            this.labelControl4.TabIndex = 44;
             this.labelControl4.Text = "Ngày sinh:";
             // 
             // labelControl3
             // 
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.labelControl3.Location = new System.Drawing.Point(17, 131);
+            this.labelControl3.Location = new System.Drawing.Point(18, 128);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(66, 19);
-            this.labelControl3.TabIndex = 22;
+            this.labelControl3.TabIndex = 41;
             this.labelControl3.Text = "Giới tính:";
             // 
             // txtTen
             // 
-            this.txtTen.Location = new System.Drawing.Point(112, 97);
+            this.txtTen.Location = new System.Drawing.Point(113, 94);
             this.txtTen.Name = "txtTen";
             this.txtTen.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.txtTen.Properties.Appearance.Options.UseFont = true;
             this.txtTen.Size = new System.Drawing.Size(232, 26);
-            this.txtTen.TabIndex = 19;
+            this.txtTen.TabIndex = 38;
             // 
             // labelControl2
             // 
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.labelControl2.Location = new System.Drawing.Point(17, 100);
+            this.labelControl2.Location = new System.Drawing.Point(18, 97);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(33, 19);
-            this.labelControl2.TabIndex = 18;
+            this.labelControl2.TabIndex = 37;
             this.labelControl2.Text = "Tên:";
             // 
             // txtHo
             // 
-            this.txtHo.Location = new System.Drawing.Point(112, 65);
+            this.txtHo.Location = new System.Drawing.Point(113, 62);
             this.txtHo.Name = "txtHo";
             this.txtHo.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
             this.txtHo.Properties.Appearance.Options.UseFont = true;
             this.txtHo.Size = new System.Drawing.Size(232, 26);
-            this.txtHo.TabIndex = 17;
+            this.txtHo.TabIndex = 36;
             // 
             // labelControl1
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.labelControl1.Location = new System.Drawing.Point(17, 68);
+            this.labelControl1.Location = new System.Drawing.Point(18, 65);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(26, 19);
-            this.labelControl1.TabIndex = 16;
+            this.labelControl1.TabIndex = 35;
             this.labelControl1.Text = "Họ:";
             // 
             // lblTitle
@@ -242,13 +242,13 @@
             this.lblTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTitle.Appearance.Font = new System.Drawing.Font("Tahoma", 20F);
-            this.lblTitle.Location = new System.Drawing.Point(255, 14);
+            this.lblTitle.Location = new System.Drawing.Point(256, 11);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(258, 33);
-            this.lblTitle.TabIndex = 15;
+            this.lblTitle.TabIndex = 34;
             this.lblTitle.Text = "Thông tin khách hàng";
             // 
-            // UI_StudentofClass
+            // UI_AddCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -271,8 +271,8 @@
             this.Controls.Add(this.txtHo);
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.lblTitle);
-            this.Name = "UI_StudentofClass";
-            this.Size = new System.Drawing.Size(746, 349);
+            this.Name = "UI_AddCustomer";
+            this.Size = new System.Drawing.Size(750, 356);
             ((System.ComponentModel.ISupportInitialize)(this.pictureImage.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtEmail.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPhone.Properties)).EndInit();
@@ -307,5 +307,6 @@
         private DevExpress.XtraEditors.TextEdit txtHo;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.LabelControl lblTitle;
+
     }
 }

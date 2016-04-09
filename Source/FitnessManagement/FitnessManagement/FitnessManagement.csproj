@@ -77,10 +77,16 @@
     <Compile Include="form\frmWait.designer.cs">
       <DependentUpon>frmWait.cs</DependentUpon>
     </Compile>
-    <Compile Include="form\UI_StudentofClass.cs">
+    <Compile Include="UIs\UI_AddCustomer.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="form\UI_StudentofClass.Designer.cs">
+    <Compile Include="UIs\UI_AddCustomer.Designer.cs">
+      <DependentUpon>UI_AddCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIs\UI_StudentofClass.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIs\UI_StudentofClass.Designer.cs">
       <DependentUpon>UI_StudentofClass.cs</DependentUpon>
     </Compile>
     <Compile Include="Master.cs">
@@ -117,7 +123,10 @@
     <EmbeddedResource Include="form\frmWait.resx">
       <DependentUpon>frmWait.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form\UI_StudentofClass.resx">
+    <EmbeddedResource Include="UIs\UI_AddCustomer.resx">
+      <DependentUpon>UI_AddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIs\UI_StudentofClass.resx">
       <DependentUpon>UI_StudentofClass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Master.resx">

@@ -8,10 +8,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraBars;
-using FitnessManagement.form;
 using DevExpress.XtraTab;
 using DevExpress.XtraTab.ViewInfo;
 using FitnessManagement.Utilitys;
+using FitnessManagement.form;
+using FitnessManagement.UIs;
 
 namespace FitnessManagement
 {
@@ -33,7 +34,7 @@ namespace FitnessManagement
             waiting.Show();
             AddCustomer cus = new AddCustomer();
             cus.StartPosition = FormStartPosition.CenterParent;
-            cus.UIControl = new UI_StudentofClass();
+            cus.UIControl = new UI_AddCustomer();
             waiting.Hide(true);
             cus.ShowDialog();
         }

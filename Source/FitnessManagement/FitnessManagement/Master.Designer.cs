@@ -62,6 +62,8 @@
             DevExpress.Utils.ToolTipTitleItem toolTipTitleItem15 = new DevExpress.Utils.ToolTipTitleItem();
             DevExpress.Utils.SuperToolTip superToolTip16 = new DevExpress.Utils.SuperToolTip();
             DevExpress.Utils.ToolTipTitleItem toolTipTitleItem16 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip18 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem18 = new DevExpress.Utils.ToolTipTitleItem();
             DevExpress.Utils.SuperToolTip superToolTip17 = new DevExpress.Utils.SuperToolTip();
             DevExpress.Utils.ToolTipTitleItem toolTipTitleItem17 = new DevExpress.Utils.ToolTipTitleItem();
             this.ribbon = new DevExpress.XtraBars.Ribbon.RibbonControl();
@@ -94,6 +96,7 @@
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.mdi = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
             this.TabControl = new DevExpress.XtraTab.XtraTabControl();
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mdi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TabControl)).BeginInit();
@@ -123,9 +126,10 @@
             this.barButtonItem29,
             this.barButtonItem30,
             this.barButtonItem31,
-            this.barButtonItem32});
+            this.barButtonItem32,
+            this.barButtonItem1});
             this.ribbon.Location = new System.Drawing.Point(0, 0);
-            this.ribbon.MaxItemId = 1;
+            this.ribbon.MaxItemId = 2;
             this.ribbon.Name = "ribbon";
             this.ribbon.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
@@ -325,9 +329,9 @@
             this.ribbonPageGroup1.ItemLinks.Add(this.btnListCustomer);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnAddCustomer);
             this.ribbonPageGroup1.Name = "ribbonPageGroup1";
-            toolTipTitleItem17.Text = "Quản lý khách hàng";
-            superToolTip17.Items.Add(toolTipTitleItem17);
-            this.ribbonPageGroup1.SuperTip = superToolTip17;
+            toolTipTitleItem18.Text = "Quản lý khách hàng";
+            superToolTip18.Items.Add(toolTipTitleItem18);
+            this.ribbonPageGroup1.SuperTip = superToolTip18;
             this.ribbonPageGroup1.Text = "Quản lý khách hàng";
             // 
             // ribbonPageGroup10
@@ -411,6 +415,15 @@
             this.TabControl.TabIndex = 3;
             this.TabControl.CloseButtonClick += new System.EventHandler(this.TabControl_CloseButtonClick);
             // 
+            // barButtonItem1
+            // 
+            this.barButtonItem1.Caption = "Loại khách hàng";
+            this.barButtonItem1.Id = 1;
+            this.barButtonItem1.Name = "barButtonItem1";
+            toolTipTitleItem17.Text = "Loại khách hàng";
+            superToolTip17.Items.Add(toolTipTitleItem17);
+            this.barButtonItem1.SuperTip = superToolTip17;
+            // 
             // Master
             // 
             this.ActiveGlowColor = System.Drawing.Color.White;
@@ -469,5 +482,6 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup13;
         private DevExpress.XtraTabbedMdi.XtraTabbedMdiManager mdi;
         private DevExpress.XtraTab.XtraTabControl TabControl;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
     }
 }

@@ -11,15 +11,15 @@ using DevExpress.XtraEditors;
 using System.IO;
 using System.Drawing.Imaging;
 
-namespace FitnessManagement.form
+namespace FitnessManagement.UIs
 {
-    public partial class UI_StudentofClass : DevExpress.XtraEditors.XtraUserControl
+    public partial class UI_AddCustomer : DevExpress.XtraEditors.XtraUserControl
     {
-        public UI_StudentofClass()
+        public UI_AddCustomer()
         {
             InitializeComponent();
         }
-        
+
         private void pictureImage_EditValueChanged(object sender, EventArgs e)
         {
             Image i = pictureImage.Image;
@@ -40,7 +40,7 @@ namespace FitnessManagement.form
             Image i = Image.FromStream(stream);
             i.Save(Application.StartupPath + "hinhanh.png");
             MessageBox.Show("Thêm thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            
+
             this.ParentForm.Close();
         }
 
@@ -48,6 +48,5 @@ namespace FitnessManagement.form
         {
             this.ParentForm.Close();
         }
-
     }
 }

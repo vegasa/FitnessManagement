@@ -4,7 +4,6 @@ E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\
 E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.form.AddCustomer.resources
 E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.form.frmLogin.resources
 E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.form.frmWait.resources
-E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.form.UI_StudentofClass.resources
 E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.Master.resources
 E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.MsgBox.CustomMessageBoxForm.resources
 E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.Properties.Resources.resources
@@ -12,3 +11,5 @@ E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\
 E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.exe.licenses
 E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.exe
 E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.pdb
+E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.UIs.UI_AddCustomer.resources
+E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.UIs.UI_StudentofClass.resources
