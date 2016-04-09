@@ -1,6 +1,6 @@
 ﻿namespace FitnessManagement.form
 {
-    partial class AddCustomer
+    partial class FormAdd
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddCustomer));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAdd));
             this.SuspendLayout();
             // 
             // AddCustomer

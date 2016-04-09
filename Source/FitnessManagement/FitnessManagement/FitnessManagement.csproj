@@ -59,11 +59,11 @@
     <Compile Include="BaseForm\BaseFormList.Designer.cs">
       <DependentUpon>BaseFormList.cs</DependentUpon>
     </Compile>
-    <Compile Include="form\AddCustomer.cs">
+    <Compile Include="form\FormAdd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form\AddCustomer.Designer.cs">
-      <DependentUpon>AddCustomer.cs</DependentUpon>
+    <Compile Include="form\FormAdd.Designer.cs">
+      <DependentUpon>FormAdd.cs</DependentUpon>
     </Compile>
     <Compile Include="form\frmLogin.cs">
       <SubType>Form</SubType>
@@ -114,8 +114,8 @@
     <EmbeddedResource Include="BaseForm\BaseFormList.resx">
       <DependentUpon>BaseFormList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="form\AddCustomer.resx">
-      <DependentUpon>AddCustomer.cs</DependentUpon>
+    <EmbeddedResource Include="form\FormAdd.resx">
+      <DependentUpon>FormAdd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="form\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>

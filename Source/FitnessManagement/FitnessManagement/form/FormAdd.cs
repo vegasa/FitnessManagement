@@ -14,9 +14,9 @@ using System.Drawing.Imaging;
 
 namespace FitnessManagement.form
 {
-    public partial class AddCustomer : DevExpress.XtraEditors.XtraForm
+    public partial class FormAdd : DevExpress.XtraEditors.XtraForm
     {
-        public AddCustomer()
+        public FormAdd()
         {
             InitializeComponent();
         }

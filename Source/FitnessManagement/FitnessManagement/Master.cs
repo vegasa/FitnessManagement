@@ -32,7 +32,7 @@ namespace FitnessManagement
         {
             var waiting = new WaitHelper();
             waiting.Show();
-            AddCustomer cus = new AddCustomer();
+            FormAdd cus = new FormAdd();
             cus.StartPosition = FormStartPosition.CenterParent;
             cus.UIControl = new UI_AddCustomer();
             waiting.Hide(true);
