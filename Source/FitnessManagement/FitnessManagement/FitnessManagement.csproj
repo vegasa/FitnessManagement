@@ -65,6 +65,18 @@
     <Compile Include="form\AddCustomer.Designer.cs">
       <DependentUpon>AddCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="form\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmWait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmWait.designer.cs">
+      <DependentUpon>frmWait.cs</DependentUpon>
+    </Compile>
     <Compile Include="form\UI_StudentofClass.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -77,19 +89,42 @@
     <Compile Include="Master.Designer.cs">
       <DependentUpon>Master.cs</DependentUpon>
     </Compile>
+    <Compile Include="MsgBox\CustomMessageBox.cs" />
+    <Compile Include="MsgBox\CustomMessageBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MsgBox\CustomMessageBoxForm.designer.cs">
+      <DependentUpon>CustomMessageBoxForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilitys\AccMessageUtility.cs" />
+    <Compile Include="Utilitys\Constants.cs" />
+    <Compile Include="Utilitys\Global.cs" />
+    <Compile Include="Utilitys\ImageHelper.cs" />
+    <Compile Include="Utilitys\PathProvider.cs" />
+    <Compile Include="Utilitys\Utils.cs" />
+    <Compile Include="Utilitys\WaitHelper.cs" />
     <EmbeddedResource Include="BaseForm\BaseFormList.resx">
       <DependentUpon>BaseFormList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="form\AddCustomer.resx">
       <DependentUpon>AddCustomer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="form\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmWait.resx">
+      <DependentUpon>frmWait.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="form\UI_StudentofClass.resx">
       <DependentUpon>UI_StudentofClass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Master.resx">
       <DependentUpon>Master.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MsgBox\CustomMessageBoxForm.resx">
+      <DependentUpon>CustomMessageBoxForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

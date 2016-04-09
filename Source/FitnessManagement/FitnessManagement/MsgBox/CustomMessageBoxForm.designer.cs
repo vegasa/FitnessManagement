@@ -1,4 +1,5 @@
 ﻿namespace FitnessManagement.MsgBox
+{
     partial class CustomMessageBoxForm
     {
         /// <summary>

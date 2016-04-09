@@ -11,6 +11,7 @@ using DevExpress.XtraBars;
 using FitnessManagement.form;
 using DevExpress.XtraTab;
 using DevExpress.XtraTab.ViewInfo;
+using FitnessManagement.Utilitys;
 
 namespace FitnessManagement
 {
@@ -28,9 +29,12 @@ namespace FitnessManagement
 
         private void btnAddCustomer_ItemClick(object sender, ItemClickEventArgs e)
         {
+            var waiting = new WaitHelper();
+            waiting.Show();
             AddCustomer cus = new AddCustomer();
             cus.StartPosition = FormStartPosition.CenterParent;
             cus.UIControl = new UI_StudentofClass();
+            waiting.Hide(true);
             cus.ShowDialog();
         }
         #region tabcontrol
@@ -97,5 +101,23 @@ namespace FitnessManagement
             this.Cursor = Cursors.Default;
         }
         #endregion
+
+        private void Master_Load(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmLogin frmLG = new frmLogin();
+            frmLG.ShowDialog();
+            //dateCurrent.Text = DateTime.Now.ToString("dd/MM/yyyy");
+            //Utility.AccConfigUtility.CurrentUser = frmLG.userLogin;
+            //if (Utility.AccConfigUtility.CurrentUser == null)
+            //    this.Close();
+            //else
+            //{
+                this.Show();
+            //    dateCurrent.DateTime = DateTime.Now.Date;
+            //    bsiUser.Caption = Utility.AccConfigUtility.CurrentUser.Fullname + " - " + Utility.AccConfigUtility.CurrentUser.PositionName;
+            //    bsiUser.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
+            //}
+        }
     }
 }

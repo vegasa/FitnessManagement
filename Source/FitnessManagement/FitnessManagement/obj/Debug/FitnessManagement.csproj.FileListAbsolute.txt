@@ -22,3 +22,16 @@ E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\
 E:\Source code\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.form.UI_StudentofClass.resources
 D:\THUANNGUYEN\Code\Parttime\Fitness\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.exe
 D:\THUANNGUYEN\Code\Parttime\Fitness\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.pdb
+D:\THUANNGUYEN\Code\Parttime\Fitness\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.csprojResolveAssemblyReference.cache
+D:\THUANNGUYEN\Code\Parttime\Fitness\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.BaseForm.BaseFormList.resources
+D:\THUANNGUYEN\Code\Parttime\Fitness\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.form.AddCustomer.resources
+D:\THUANNGUYEN\Code\Parttime\Fitness\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.form.UI_StudentofClass.resources
+D:\THUANNGUYEN\Code\Parttime\Fitness\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.Master.resources
+D:\THUANNGUYEN\Code\Parttime\Fitness\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.MsgBox.CustomMessageBoxForm.resources
+D:\THUANNGUYEN\Code\Parttime\Fitness\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.Properties.Resources.resources
+D:\THUANNGUYEN\Code\Parttime\Fitness\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.csproj.GenerateResource.Cache
+D:\THUANNGUYEN\Code\Parttime\Fitness\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.exe.licenses
+D:\THUANNGUYEN\Code\Parttime\Fitness\FitnessManagement\Source\FitnessManagement\FitnessManagement\bin\Debug\FitnessManagement.exe
+D:\THUANNGUYEN\Code\Parttime\Fitness\FitnessManagement\Source\FitnessManagement\FitnessManagement\bin\Debug\FitnessManagement.pdb
+D:\THUANNGUYEN\Code\Parttime\Fitness\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.form.frmWait.resources
+D:\THUANNGUYEN\Code\Parttime\Fitness\FitnessManagement\Source\FitnessManagement\FitnessManagement\obj\Debug\FitnessManagement.form.frmLogin.resources
