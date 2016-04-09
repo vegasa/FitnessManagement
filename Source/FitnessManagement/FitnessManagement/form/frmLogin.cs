@@ -29,7 +29,7 @@ namespace FitnessManagement.form
         {
             WaitHelper.Manager = splashScrManager;
             txtTenDN.Text = "1314";
-            //txtMK.Text = "Concung@123";
+            txtMK.Text = "Concung@123";
         }
         #endregion
 
